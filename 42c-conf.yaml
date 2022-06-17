@@ -3,7 +3,6 @@ audit:
     main:
       discovery:
         search:
-          - '**/*.json'
-          - '**/*.yaml'
-          - '**/*.yml'
-          - '!foo/**'
+          - '*.json'
+          - '*.yaml'
+          - '*.yml'
