@@ -1,0 +1,9 @@
+audit:
+  branches:
+    main:
+      discovery:
+        search:
+          - '**/*.json'
+          - '**/*.yaml'
+          - '**/*.yml'
+          - '!foo/**'
